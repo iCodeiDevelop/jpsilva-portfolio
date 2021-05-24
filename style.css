@@ -1,0 +1,299 @@
+/* Layout */
+
+body {
+	margin:0;
+	padding:0;
+}
+
+/*header*/
+#index-wrapper {
+	margin:0 auto;
+	width:100%;
+}
+
+.class-header {
+	margin:0 1px;
+	background: #f1f1f1;
+}
+
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding:0px;
+}
+
+
+
+#nav-left {
+	width:25%;
+	padding:15px 25px;
+	float:left;
+	text-align:center;
+	color:#ec692d;
+	font:bold 27px Georgia, serif;
+
+}
+
+#nav-right {
+	width: 75%;
+	padding:25px 25px;
+	text-align:center;
+	float:center;
+
+}
+#nav-right a {
+	margin: 0 10px;
+	text-decoration:none;
+	font:bold 18px Calibri, serif;
+	color:#225675;
+}
+
+#nav-right a:visited, #nav a:link {
+	text-decoration:none;
+	color:#225675;
+}
+
+#nav-right a:hover {
+	text-decoration:none;
+	color:#ec692d;
+	padding-bottom:25px;
+	border-bottom: 2px solid  #ec692d;
+}
+
+/*content*/
+#main-content {
+	margin:0 auto;
+}
+#main-content-top, #main-content-middle, #main-content-bottom {
+	height: 80vh;
+	width: 100%;
+	border-top:1px solid #f1f1f1;
+	padding:10px 0 15px;
+	clear:both;
+    position: center;
+    bottom: 0;	
+}
+
+
+/*content-top*/
+
+#main-content-top{
+	background:linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../images/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#main-content-top-text{
+  background-color: rgb(255,255,255); /* Fallback color */
+  background-color: rgba(255,255,255, 0.4); /* Black w/opacity/see-through */
+  margin: auto;
+  color: #225675;
+  border: 3px solid #ec692d;
+  width: 50%;
+  padding: 25px;
+  text-align: center;
+
+   
+}	
+#main-content-top-button{
+  margin: auto;
+  color: #225675;
+  width: 50%;
+  padding: 25px;
+  text-align: center;
+}	
+#portfolio {
+	font:italic 18px Script, Serif;
+	font-weight: bold;
+	font-weight: bold;
+	color: #225675;
+	background-color: #ec692d;
+	padding: 15px;
+	border: 2px solid #ec692d;
+	border-radius: 5px;
+	text-align: center;	
+	cursor: pointer;
+}
+
+#portfolio:hover{
+	
+	background: rgb(236,105,45, 0.7);
+	border-color: rgb(236,105,45, 0.7);
+
+}
+
+/*content-middle*/
+
+#main-content-middle {
+	background: #f1f1f1;
+	margin:0 auto;
+	width: 100%;
+}
+#main-content-middle-left, #main-content-middle-right {
+	background-color: #ffffff;
+	height: 100%;
+}
+#main-content-middle-left{
+	float: left;
+	width: 29.5%;
+}
+
+#details-1, #details-3, #details-5{
+	font: bold 15px Arial, san-serif;
+	float: center;
+	padding: 0 25px;
+	
+}
+
+#details-2, #details-4, #details-6{
+	font: normal 15px Arial, san-serif;
+	float: center;
+	padding: 0 25px;
+}
+
+#main-content-middle-right {
+	float: right;
+	width: 69.5%;
+	}
+
+#main-content-middle-left-name, #main-content-middle-left-socmed, #main-content-middle-left-img {
+	margin:auto;
+	text-align: center; 
+	width: 100%;
+}
+#main-content-middle-left-name {
+	height: 10%;
+	color: #225675;
+}
+
+#main-content-middle-left-img  {
+	height: 70%;
+	border-bottom: 2px solid #f1f1f1;
+	padding: 0 0 25px;
+}
+
+#main-content-middle-left-img img {
+	margin: auto;
+	float: center;
+	border: 2px solid #ec692d;
+	border-radius: 55%;
+	text-align: center;
+}
+
+#main-content-middle-left-socmed {
+	height: 15%;
+	padding: 5px;
+
+}
+
+#main-content-middle-right-left, #main-content-middle-right-right {
+	height: 100%;
+	padding: 5px;
+}
+
+
+#main-content-middle-right-left{
+    float: left;
+	width: 59.5%;
+
+}
+#main-content-middle-right-right {
+	float: right;
+	width: 35%;
+}
+
+td{ 
+	font: normal 14px Arial, san-serif;
+	
+}
+td .fa{ 
+	padding: 0;
+}
+
+.checked{
+	color: yellow;
+	
+}
+
+
+
+
+/*content-bottom*/
+
+
+
+
+
+/*footer*/
+	
+#footer {
+	background:#f1f1f1;
+	color: white;
+	border-top:1px solid #f0e9eb;
+	padding:15px 0 25px;
+	clear:both;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+	
+}	
+	
+
+/* Global Styling */
+
+.fa {
+  padding: 10px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: #ffffff;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+
+
+
+
